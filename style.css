@@ -29,6 +29,21 @@ nav a {
   border: 1px solid #DDD;
   padding: 16px;
   margin-bottom: 8px;
+  position: relative;
+}
+
+nav a::after {
+  content: url('images/check_box_blank.svg');
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 12px;
+  top: 15px
+}
+
+nav a.done::after {
+  content: url('images/check_box.svg');
 }
 
 img {
