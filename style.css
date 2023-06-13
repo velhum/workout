@@ -1,5 +1,6 @@
 body {
   font-family: sans-serif;
+  font-size: 1rem;
   padding: 0px;
   margin: 0  auto;
   max-width: 390px;
@@ -19,6 +20,10 @@ h1 {
 
 h2 {
   padding-top: 64px;
+}
+
+li {
+  padding: 16px 0;
 }
 
 nav a {
