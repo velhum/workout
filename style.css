@@ -77,3 +77,7 @@ p.obs::before {
   content: 'OBS: ';
   font-weight: bold;
 }
+
+.exercicio-clean {
+  line-height: 32px; 
+}
